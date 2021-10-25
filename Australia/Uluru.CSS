@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.forside {
+    background-color: rgb(245, 155, 71);
+    width: 80%;
+    overflow: hidden;
+    display: block;
+    margin: 20px auto;
+   
+ 
+}
+    .forside video {
+    width: 1280px;
+    height: 720px;
+    margin: -40px;
+    }
+    
+    body {
+        background: rgb(245, 155, 71);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+.Longtitude {
+    background-color:rgb(243, 226, 207);
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+}
+
+.hoved {
+    display: grid;
+    margin: 20px auto;
+    width: 80%;
+    height: 300px;
+    gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.hoved > div {
+    margin-top: 200px;
+}
+
+
+  #tekst1 {
+      background-color: rgb(243, 226, 207);
+      width: 700px;
+      height: 150px;
+      padding: 20px;
+      position: relative;
+      left: 400px;
+      top: 250px;
+      opacity: 0.8;
+      font-size: 20px;
+  }
+
+#tekst2 {
+    background-color:rgb(243, 226, 207);
+    width: 600px;
+    height: 300px;
+    padding: 20px;
+    position: relative;
+    left: 250px;
+    top: 850px;
+    opacity: 0.8;
+    font-size: 19px;
+}
+
+#tekst3 {
+    background-color:rgb(243, 226, 207);
+    width: 560px;
+    height: 263px;
+    padding: 20px;
+    position: relative;
+    left: 600px;
+    top: 1100px;
+    opacity: 0.8;
+    font-size: 22px;
+}
+
+/* Slideshow container */
+
+.slideshow-container {
+    max-width: 85%;
+    position: relative;
+    margin: auto;
+    top: 3000px;
+}
+
+.Light {
+    display: none;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color:white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: black;
+}
+
+.text {
+    color: rgb(243, 226, 207);
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color: aliceblue;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: rgb(243, 226, 207);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: rgb(243, 226, 207);
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+#info {
+    width: 500px;
+    height: 200px;
+    background-color: rgb(243, 226, 207);
+    opacity: 0.8;
+    position: absolute;
+    bottom: 750px;
+    left: 85px;
+    padding: 20px;
+    font-size: 21px;
+}
+
+#bakside {
+    position: relative;
+    bottom: 2000px;
+    width: 150px;
+    }
+
+
+#bakside > img {
+    width: 100%;
+}
+
+#lizard {
+    position: relative;
+    width: 120px;
+    left: 10px;
+}
+
+#lizard > img {
+    width: 100%;
+}
+
+#Etdyr {
+    position: relative;
+    left:1200px;
+    width: 100px;
+    top: 2430px;
+}
+
+#Etdyr > img {
+    width: 100%;
+}
+
+#hovedside {
+    top: 2000px;
+    width: 500px;
+}

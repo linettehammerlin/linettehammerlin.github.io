@@ -1,0 +1,50 @@
+body {
+        background-color: rgb(231, 159, 100);
+        font-family: 'Times New Roman', Times, serif
+        counter-reset; srl:
+    }
+    #Steinen {
+
+        width: 20%;
+        margin-top: 100px;
+        margin-left: 100px;
+        padding: 100px;
+        background-color: rgb(245, 190, 122);
+    }
+    #Uluru {
+
+        margin-top: 100px;
+        margin-left: 100px;
+    }
+
+    #bakside {
+        margin-top: 100px;
+        margin-left: 70px;
+    }
+
+    #title {
+        text-align: center;
+    }
+
+    h1 {
+        text-align:center;
+    }
+
+    figure {
+        text-align: center;
+    }
+
+   
+    h1 {
+        color: rgb(207, 103, 5);
+    font-size: 60px;
+    }
+
+    img {
+        border: 5px dotted rgb(207, 103, 5);
+    }
+
+    figcaption {
+        font-size: 30px;
+    }
+    
