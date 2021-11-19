@@ -1,0 +1,102 @@
+.Velkommen {
+text-align: left;
+font-family: 'Times New Roman', Times, serif;
+font-size: 20px;
+color: white;
+background-color: black;
+width: 850px;
+height: 400px;
+opacity: 0.9;
+position: relative;
+top: -370px;
+}
+
+
+.RAM{
+
+color: greenyellow;
+background-color: black;
+border: 3px, dotted;
+margin: 5px;
+padding: 1cm;
+font-family: Consolas;
+line-height: 0.9cm;
+
+}
+.HK{
+  font-family: Frutiger cn;
+  color: silver;
+  border: 3px, dotted;
+  margin: 5px;
+  padding: 1cm;
+  
+}
+.LM {
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+border: 3px, dotted;
+margin: 5px;
+padding:1cm;
+color: gold;
+line-height: 0.9cm;
+
+}
+
+.P {
+line-height: 0.9cm;
+color: lightgray;
+border: 3px, dotted;
+margin: 5px;
+padding: 1cm;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.SK{
+  line-height: 0.9cm;
+  color:orangered;
+  border: 3px, dotted;
+  margin: 5px;
+  padding:1cm;
+  
+}
+
+#Innside {
+  margin-left: 300px;
+}
+
+.sirkel {
+  z-index: 0;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  width: 200px;
+  height: 50px;
+  position: relative;
+  top: 200px;
+  left: 520px;
+  font-size: 20px;
+}
+
+.komp {
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  position: relative;
+  top: 40px;
+}
+
+    
+ .forside video {
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    }
+
+  .neste {
+    color: white;
+    position: relative;
+    left: 300px;
+    font-family: 'Times New Roman', Times, serif;
+
+
+
+  }
